@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (3.3.1)
+  - HMSegmentedControl (1.5.2)
+  - SnapKit (0.20.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - HMSegmentedControl
+  - SnapKit
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  HMSegmentedControl: 83b9686022d2176fb6457d2bdb61e5d6393fed7d
+  SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
