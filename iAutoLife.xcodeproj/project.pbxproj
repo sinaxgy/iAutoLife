@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D04F7291CCE1017000D7805 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D04F7281CCE1017000D7805 /* HomeViewController.swift */; };
 		4D04F7301CCE14AD000D7805 /* AlStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D04F72F1CCE14AD000D7805 /* AlStyle.swift */; };
 		4D04F7321CCE153C000D7805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D04F7311CCE153C000D7805 /* UIKit.framework */; };
 		4D04F7361CCE1FB4000D7805 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D04F7341CCE18D8000D7805 /* SnapKit.framework */; };
-		4D04F7371CCE1FC3000D7805 /* SnapKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4D04F7341CCE18D8000D7805 /* SnapKit.framework */; };
+		4D0A7B701CD1C22E00F086A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A7B6F1CD1C22E00F086A2 /* LoginViewController.swift */; };
+		4D0A7B721CD1F40E00F086A2 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A7B711CD1F40E00F086A2 /* TouchViewController.swift */; };
+		4D0A7B741CD1F7C900F086A2 /* AlTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A7B731CD1F7C900F086A2 /* AlTouch.swift */; };
 		4DDF22CD1CCE51E900650564 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22CC1CCE51E900650564 /* Constant.swift */; };
 		4DDF22CF1CCE525600650564 /* NormalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22CE1CCE525600650564 /* NormalExtension.swift */; };
 		4DDF22D31CCE52F700650564 /* XuKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22D01CCE52F700650564 /* XuKeyChain.swift */; };
@@ -28,13 +29,20 @@
 		4DDF22EC1CCE55BB00650564 /* ParkingRecord.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF22E51CCE55BB00650564 /* ParkingRecord.plist */; };
 		4DDF22ED1CCE55BB00650564 /* ParkState.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF22E61CCE55BB00650564 /* ParkState.plist */; };
 		4DDF22EE1CCE55BB00650564 /* Violations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF22E71CCE55BB00650564 /* Violations.plist */; };
+		4DDF22F01CCE5B9F00650564 /* HMSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDF22EF1CCE5B9F00650564 /* HMSegmentedControl.framework */; };
+		4DDF22F41CCE627600650564 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22F31CCE627600650564 /* CollectionView.swift */; };
+		4DDF22F61CCEFF9B00650564 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22F51CCEFF9B00650564 /* FeatureView.swift */; };
+		4DDF22F91CCEFFDC00650564 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22F71CCEFFDC00650564 /* HomeViewController.swift */; };
+		4DDF22FA1CCEFFDC00650564 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22F81CCEFFDC00650564 /* MainViewController.swift */; };
+		4DDF22FD1CCF03FA00650564 /* UniversalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22FC1CCF03FA00650564 /* UniversalTableViewCell.swift */; };
+		4DDF23081CCF37A600650564 /* AlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF23071CCF37A600650564 /* AlButton.swift */; };
+		4DDF230A1CCF391400650564 /* AlTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF23091CCF391400650564 /* AlTextField.swift */; };
 		8FA288341CCCC5F600AB9CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288331CCCC5F600AB9CC5 /* AppDelegate.swift */; };
 		8FA288361CCCC5F600AB9CC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288351CCCC5F600AB9CC5 /* ViewController.swift */; };
 		8FA2883B1CCCC5F600AB9CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2883A1CCCC5F600AB9CC5 /* Assets.xcassets */; };
 		8FA2883E1CCCC5F600AB9CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2883C1CCCC5F600AB9CC5 /* LaunchScreen.storyboard */; };
 		8FA288491CCCC5F700AB9CC5 /* iAutoLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288481CCCC5F700AB9CC5 /* iAutoLifeTests.swift */; };
 		8FA288541CCCC5F700AB9CC5 /* iAutoLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288531CCCC5F700AB9CC5 /* iAutoLifeUITests.swift */; };
-		8FA288621CCCC6A000AB9CC5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288611CCCC6A000AB9CC5 /* MainViewController.swift */; };
 		8FA288641CCCC7BE00AB9CC5 /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288631CCCC7BE00AB9CC5 /* SwiftColors.swift */; };
 		C35AD8F5BF9487E8582ED315 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3221CC876F77F5A824BA728B /* Pods.framework */; };
 /* End PBXBuildFile section */
@@ -58,10 +66,12 @@
 
 /* Begin PBXFileReference section */
 		3221CC876F77F5A824BA728B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D04F7281CCE1017000D7805 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Classes/Main/HomeViewController.swift; sourceTree = "<group>"; };
 		4D04F72F1CCE14AD000D7805 /* AlStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlStyle.swift; path = Classes/Universal/Custom/AlStyle.swift; sourceTree = "<group>"; };
 		4D04F7311CCE153C000D7805 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D04F7341CCE18D8000D7805 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/iAutoLife-eromgpbkexdrfmdyznwdzsupkjgo/Build/Products/Debug-iphonesimulator/SnapKit.framework"; sourceTree = "<group>"; };
+		4D0A7B6F1CD1C22E00F086A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/Main/Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		4D0A7B711CD1F40E00F086A2 /* TouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchViewController.swift; path = Classes/Main/Controller/TouchViewController.swift; sourceTree = "<group>"; };
+		4D0A7B731CD1F7C900F086A2 /* AlTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlTouch.swift; path = Classes/Universal/Extension/AlTouch.swift; sourceTree = "<group>"; };
 		4DDF22CC1CCE51E900650564 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Classes/Universal/Custom/Constant.swift; sourceTree = "<group>"; };
 		4DDF22CE1CCE525600650564 /* NormalExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NormalExtension.swift; path = Classes/Universal/Extension/NormalExtension.swift; sourceTree = "<group>"; };
 		4DDF22D01CCE52F700650564 /* XuKeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XuKeyChain.swift; path = Classes/Universal/Custom/XuKeyChain.swift; sourceTree = "<group>"; };
@@ -80,7 +90,15 @@
 		4DDF22E51CCE55BB00650564 /* ParkingRecord.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ParkingRecord.plist; path = Resources/ParkingRecord.plist; sourceTree = "<group>"; };
 		4DDF22E61CCE55BB00650564 /* ParkState.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ParkState.plist; path = Resources/ParkState.plist; sourceTree = "<group>"; };
 		4DDF22E71CCE55BB00650564 /* Violations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Violations.plist; path = Resources/Violations.plist; sourceTree = "<group>"; };
-		8FA288301CCCC5F600AB9CC5 /* iAutoLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAutoLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDF22EF1CCE5B9F00650564 /* HMSegmentedControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMSegmentedControl.framework; path = "../../../../Library/Developer/Xcode/DerivedData/iAutoLife-eromgpbkexdrfmdyznwdzsupkjgo/Build/Products/Debug-iphonesimulator/HMSegmentedControl.framework"; sourceTree = "<group>"; };
+		4DDF22F31CCE627600650564 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionView.swift; path = Classes/Main/View/CollectionView.swift; sourceTree = "<group>"; };
+		4DDF22F51CCEFF9B00650564 /* FeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeatureView.swift; path = Classes/Main/View/FeatureView.swift; sourceTree = "<group>"; };
+		4DDF22F71CCEFFDC00650564 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Classes/Main/Controller/HomeViewController.swift; sourceTree = "<group>"; };
+		4DDF22F81CCEFFDC00650564 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Classes/Main/Controller/MainViewController.swift; sourceTree = "<group>"; };
+		4DDF22FC1CCF03FA00650564 /* UniversalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UniversalTableViewCell.swift; path = Classes/Main/Cell/UniversalTableViewCell.swift; sourceTree = "<group>"; };
+		4DDF23071CCF37A600650564 /* AlButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlButton.swift; path = Classes/Universal/Extension/AlButton.swift; sourceTree = "<group>"; };
+		4DDF23091CCF391400650564 /* AlTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlTextField.swift; path = Classes/Universal/Extension/AlTextField.swift; sourceTree = "<group>"; };
+		8FA288301CCCC5F600AB9CC5 /* i车生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i车生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA288331CCCC5F600AB9CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA288351CCCC5F600AB9CC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FA2883A1CCCC5F600AB9CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,7 +110,6 @@
 		8FA2884F1CCCC5F700AB9CC5 /* iAutoLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAutoLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA288531CCCC5F700AB9CC5 /* iAutoLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAutoLifeUITests.swift; sourceTree = "<group>"; };
 		8FA288551CCCC5F700AB9CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FA288611CCCC6A000AB9CC5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Classes/Main/MainViewController.swift; sourceTree = "<group>"; };
 		8FA288631CCCC7BE00AB9CC5 /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftColors.swift; path = Classes/Universal/Extension/SwiftColors.swift; sourceTree = "<group>"; };
 		C137E67415BF0BBFAA68DC81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F51916E82E0454DEBCC14F49 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDF22F01CCE5B9F00650564 /* HMSegmentedControl.framework in Frameworks */,
 				4D04F7361CCE1FB4000D7805 /* SnapKit.framework in Frameworks */,
 				4D04F7321CCE153C000D7805 /* UIKit.framework in Frameworks */,
 				C35AD8F5BF9487E8582ED315 /* Pods.framework in Frameworks */,
@@ -138,6 +156,9 @@
 		4D04F72B1CCE140F000D7805 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4DDF23071CCF37A600650564 /* AlButton.swift */,
+				4DDF23091CCF391400650564 /* AlTextField.swift */,
+				4D0A7B731CD1F7C900F086A2 /* AlTouch.swift */,
 				4DDF22DB1CCE544800650564 /* UIButton+Block.h */,
 				4DDF22DC1CCE544800650564 /* UIButton+Block.m */,
 				4DDF22CE1CCE525600650564 /* NormalExtension.swift */,
@@ -162,9 +183,12 @@
 		4D04F72D1CCE1449000D7805 /* MainClasses */ = {
 			isa = PBXGroup;
 			children = (
-				8FA288611CCCC6A000AB9CC5 /* MainViewController.swift */,
-				4D04F7281CCE1017000D7805 /* HomeViewController.swift */,
-				8FA288351CCCC5F600AB9CC5 /* ViewController.swift */,
+				4DDF22FE1CCF047F00650564 /* MasterBranch */,
+				4DDF23001CCF04C000650564 /* MapBranch */,
+				4DDF23041CCF050500650564 /* CarBranch */,
+				4DDF23031CCF04FD00650564 /* PayBranch */,
+				4DDF23021CCF04F200650564 /* ParkBranch */,
+				4DDF23011CCF04CD00650564 /* InsuranceBranch */,
 			);
 			name = MainClasses;
 			sourceTree = "<group>";
@@ -205,6 +229,88 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		4DDF22F11CCE621B00650564 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF22F81CCEFFDC00650564 /* MainViewController.swift */,
+				4DDF22F71CCEFFDC00650564 /* HomeViewController.swift */,
+				4D0A7B6F1CD1C22E00F086A2 /* LoginViewController.swift */,
+				4D0A7B711CD1F40E00F086A2 /* TouchViewController.swift */,
+				8FA288351CCCC5F600AB9CC5 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4DDF22F21CCE622800650564 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF22F31CCE627600650564 /* CollectionView.swift */,
+				4DDF22F51CCEFF9B00650564 /* FeatureView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4DDF22FB1CCF03D800650564 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF22FC1CCF03FA00650564 /* UniversalTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4DDF22FE1CCF047F00650564 /* MasterBranch */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF22F11CCE621B00650564 /* Controller */,
+				4DDF22FB1CCF03D800650564 /* Cell */,
+				4DDF22F21CCE622800650564 /* View */,
+				4DDF22FF1CCF04AB00650564 /* Model */,
+			);
+			name = MasterBranch;
+			sourceTree = "<group>";
+		};
+		4DDF22FF1CCF04AB00650564 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4DDF23001CCF04C000650564 /* MapBranch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MapBranch;
+			sourceTree = "<group>";
+		};
+		4DDF23011CCF04CD00650564 /* InsuranceBranch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = InsuranceBranch;
+			sourceTree = "<group>";
+		};
+		4DDF23021CCF04F200650564 /* ParkBranch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ParkBranch;
+			sourceTree = "<group>";
+		};
+		4DDF23031CCF04FD00650564 /* PayBranch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PayBranch;
+			sourceTree = "<group>";
+		};
+		4DDF23041CCF050500650564 /* CarBranch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CarBranch;
+			sourceTree = "<group>";
+		};
 		8FA288271CCCC5F600AB9CC5 = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +327,7 @@
 		8FA288311CCCC5F600AB9CC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FA288301CCCC5F600AB9CC5 /* iAutoLife.app */,
+				8FA288301CCCC5F600AB9CC5 /* i车生活.app */,
 				8FA288441CCCC5F700AB9CC5 /* iAutoLifeTests.xctest */,
 				8FA2884F1CCCC5F700AB9CC5 /* iAutoLifeUITests.xctest */,
 			);
@@ -269,6 +375,7 @@
 		CE87346985F0846767D5CE5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DDF22EF1CCE5B9F00650564 /* HMSegmentedControl.framework */,
 				4D04F7341CCE18D8000D7805 /* SnapKit.framework */,
 				3221CC876F77F5A824BA728B /* Pods.framework */,
 			);
@@ -295,7 +402,7 @@
 			);
 			name = iAutoLife;
 			productName = iAutoLife;
-			productReference = 8FA288301CCCC5F600AB9CC5 /* iAutoLife.app */;
+			productReference = 8FA288301CCCC5F600AB9CC5 /* i车生活.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8FA288431CCCC5F700AB9CC5 /* iAutoLifeTests */ = {
@@ -387,7 +494,6 @@
 				4DDF22EB1CCE55BB00650564 /* CityAndArea.plist in Resources */,
 				4DDF22ED1CCE55BB00650564 /* ParkState.plist in Resources */,
 				4DDF22EA1CCE55BB00650564 /* CarportState.plist in Resources */,
-				4D04F7371CCE1FC3000D7805 /* SnapKit.framework in Resources */,
 				4DDF22E91CCE55BB00650564 /* Carport.plist in Resources */,
 				8FA2883E1CCCC5F600AB9CC5 /* LaunchScreen.storyboard in Resources */,
 				8FA2883B1CCCC5F600AB9CC5 /* Assets.xcassets in Resources */,
@@ -464,21 +570,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0A7B701CD1C22E00F086A2 /* LoginViewController.swift in Sources */,
+				4D0A7B741CD1F7C900F086A2 /* AlTouch.swift in Sources */,
+				4DDF22F61CCEFF9B00650564 /* FeatureView.swift in Sources */,
 				4DDF22CD1CCE51E900650564 /* Constant.swift in Sources */,
 				4DDF22D51CCE52F700650564 /* XuUserDefault.swift in Sources */,
-				4D04F7291CCE1017000D7805 /* HomeViewController.swift in Sources */,
-				8FA288621CCCC6A000AB9CC5 /* MainViewController.swift in Sources */,
 				8FA288361CCCC5F600AB9CC5 /* ViewController.swift in Sources */,
 				4DDF22D71CCE532800650564 /* XuAlamofire.swift in Sources */,
+				4DDF22F41CCE627600650564 /* CollectionView.swift in Sources */,
 				4DDF22D91CCE53E900650564 /* XuTableViewSetting.swift in Sources */,
+				4DDF22FA1CCEFFDC00650564 /* MainViewController.swift in Sources */,
 				4DDF22DF1CCE545C00650564 /* XuPickerView.swift in Sources */,
+				4D0A7B721CD1F40E00F086A2 /* TouchViewController.swift in Sources */,
 				4DDF22D31CCE52F700650564 /* XuKeyChain.swift in Sources */,
+				4DDF230A1CCF391400650564 /* AlTextField.swift in Sources */,
 				8FA288341CCCC5F600AB9CC5 /* AppDelegate.swift in Sources */,
 				4D04F7301CCE14AD000D7805 /* AlStyle.swift in Sources */,
+				4DDF22F91CCEFFDC00650564 /* HomeViewController.swift in Sources */,
 				4DDF22D41CCE52F700650564 /* XuRegularExpression.swift in Sources */,
 				4DDF22DD1CCE544800650564 /* UIButton+Block.m in Sources */,
 				4DDF22CF1CCE525600650564 /* NormalExtension.swift in Sources */,
 				8FA288641CCCC7BE00AB9CC5 /* SwiftColors.swift in Sources */,
+				4DDF22FD1CCF03FA00650564 /* UniversalTableViewCell.swift in Sources */,
+				4DDF23081CCF37A600650564 /* AlButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,9 +729,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iAutoLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Xu.iAutoLife;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = iAutoLife;
+				PRODUCT_NAME = "i车生活";
 				SWIFT_OBJC_BRIDGING_HEADER = "iAutoLife/iAutoLife-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -630,9 +746,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iAutoLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Xu.iAutoLife;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = iAutoLife;
+				PRODUCT_NAME = "i车生活";
 				SWIFT_OBJC_BRIDGING_HEADER = "iAutoLife/iAutoLife-Bridging-Header.h";
 			};
 			name = Release;

@@ -31,6 +31,20 @@ extension UILabel {
         guard self.text != nil else {return 0}
         return self.font.pointSize * CGFloat(NSString(string: self.text!).length)
     }
+    
+    func cornerBorder(cornerRadius:CGFloat,font:UIFont) {
+        self.layer.borderColor = AlStyle.color.gray.CGColor
+        self.layer.borderWidth = 0.5
+        self.layer.cornerRadius = 2
+        self.font = font
+        self.textAlignment = NSTextAlignment.Center
+        self.layer.backgroundColor = AlStyle.color.white.CGColor
+        
+//        self.layer.shadowColor = UIColor.blackColor().CGColor
+//        self.layer.shadowOffset = CGSizeMake(0, 0)
+//        self.layer.shadowOpacity = 1
+//        self.layer.shadowRadius = 10
+    }
 }
 
 extension UIAlertController {
